@@ -412,6 +412,20 @@
       }
     }
 
+    .title-with-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.title-with-logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+
     /* Scrollbar styling */
     ::-webkit-scrollbar {
       width: 10px;
@@ -431,14 +445,19 @@
     ::-webkit-scrollbar-thumb:hover {
       background: linear-gradient(45deg, var(--accent-pink), var(--accent-orange));
     }
+  
   </style>
 </head>
 <body>
   <div class="container">
-    <header>
-      <h1>Create a New GSRP</h1>
-      <p class="subtitle">Your all-in-one toolkit for generating Google Sites and required components</p>
-    </header>
+   <header>
+  <div class="title-with-logo">
+    <img src="https://raw.githubusercontent.com/accalgebraofficehours/accalgebraofficehours.github.io/refs/heads/main/images_folder/gsrp_maker_favicon.png" alt="GSRP Logo">
+    <h1>Create a New GSRP</h1>
+  </div>
+  <p class="subtitle">Your all-in-one toolkit for generating Google Sites and required components</p>
+</header>
+
 
 
      <div class="instructions">
